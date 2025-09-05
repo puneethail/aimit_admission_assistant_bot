@@ -210,7 +210,12 @@
         "grade": "A++",
         "cgpa": 3.67
       }
+    },
+    "contact_information": {
+      "address": "St Aloysius Institute of Management and Information Technology (AIMIT), Beeri, Kotekar, Mangalore – 575022, Karnataka",
+      "phone": "+91-824-2286881 / 82; +91-9141201851 / 52",
+      "email": "admissions@staloysius.ac.in",
+      "website":"https://www.aimit.edu.in/"
     }
-    
   }
 }
