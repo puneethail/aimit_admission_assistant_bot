@@ -1,0 +1,5 @@
+josn
+chainlit
+dotenv
+google-generativeai
+groq
