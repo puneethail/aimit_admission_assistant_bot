@@ -1,5 +1,4 @@
-json
 chainlit
 dotenv
 google-generativeai
-groq
+# groq
