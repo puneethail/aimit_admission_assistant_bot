@@ -1,0 +1,22 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+addmission_bot/
+.env/
+
+# Ignore environment files
+.env
+*.env
+
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore chainlit local files
+.chainlit/
