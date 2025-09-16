@@ -39,7 +39,7 @@ This project enhances student experience by automating responses to frequently a
 ---
 
 ## 📂 Project Structure
-```bash
+```plaintext
 aimit_admission_assistant_bot/
 │
 ├── src/
@@ -52,11 +52,11 @@ aimit_admission_assistant_bot/
 ├── requirements.txt # Python dependencies
 ├── README.md # Project documentation
 └── .gitignore # Ignore venv, .env, cache files
-
+```
 ## 🔧 Setup Instructions
 
 1. **Clone the repository**
-   ```bash
+   ```cmd
    git clone https://github.com/puneethail/aimit_admission_assistant_bot.git
    cd aimit_admission_assistant_bot
 
@@ -69,7 +69,7 @@ aimit_admission_assistant_bot/
    source venv/bin/activate
 
 3. **Install dependencies**
-    ```bash
+    ```cmd
     pip install -r requirements.txt
 
 4. **Set up environment variables**
@@ -79,7 +79,7 @@ aimit_admission_assistant_bot/
     GROQ_API_KEY = 'your_groq_api_key_here'
 
 5.  **Run the bot**
-    ```bash
+    ```cmd
     python app.py
    
 ## 🤝 Contribution
