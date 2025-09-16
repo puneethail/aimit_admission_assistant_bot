@@ -39,7 +39,7 @@ This project enhances student experience by automating responses to frequently a
 ---
 
 ## 📂 Project Structure
-
+```bash
 aimit_admission_assistant_bot/
 │
 ├── src/
