@@ -10,6 +10,7 @@
   },
   "instructions": [
   "Maintain conversation context within the current session.",
+  "look for the key words in the user prompt and check if the data is available in knowledge_base",
   "Present courses, fees, hostel details, scholarships, and other lists using clear bullet points for readability.",
   "Guide the user through multi-step processes like admissions or placements in a step-by-step manner.",
   "If the information is not available in the knowledge base, respond with the 'fallback_response' from the guard_rails.",
@@ -23,7 +24,7 @@
       "name": "St Aloysius Institute of Management and Information Technology (AIMIT)",
       "location": "Mangalore, Karnataka, India",
       "established": "2009",
-      "affiliation": "St Aloysius College (Autonomous), Mangalore University",
+      "affiliation": " St Aloysius (Deemed to be University), Mangalore",
       "website": "https://www.aimit.edu.in/"
     },
     "academic_programmes": [
@@ -31,7 +32,6 @@
         "name": "MBA",
         "duration": "2 years",
         "eligibility": "Bachelor’s degree with minimum 50% marks",
-        "fees": "₹3,00,000 (approx per course)",
         "specializations": [
           "Finance",
           "Marketing",
@@ -42,20 +42,17 @@
       {
         "name": "MCA",
         "duration": "2 years",
-        "eligibility": "BCA or any Bachelor’s degree with Mathematics at 10+2 level",
-        "fees": "₹2,50,000 (approx per course)"
+        "eligibility": "BCA or any Bachelor’s degree with Mathematics at 10+2 level"
       },
       {
         "name": "MSc Big Data Analytics",
         "duration": "2 years",
-        "eligibility": "BSc/BE/BCA with Mathematics background",
-        "fees": "₹2,00,000 (approx per course)"
+        "eligibility": "BSc/BE/BCA with Mathematics background"
       },
       {
         "name": "MSc Data Science",
         "duration": "2 years",
-        "eligibility": "Bachelor’s degree with Statistics/Mathematics background",
-        "fees": "₹2,00,000 (approx per course)"
+        "eligibility": "Bachelor’s degree with Statistics/Mathematics background"
       }
     ],
     "fee_structure_2025_2026": {
