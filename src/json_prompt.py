@@ -1,8 +1,10 @@
 import json
+import os
 
 # Load the JSON prompt from the file
+file_path = os.path.join('src', 'prompt.json')
 try:
-    with open(r'src\prompt.json', 'r') as f:
+    with open(file_path, 'r') as f:
         prompt_data = json.load(f)
 except FileNotFoundError:
     print("Error: 'prompt.json' not found.")

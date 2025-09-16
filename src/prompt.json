@@ -10,6 +10,7 @@
   },
   "instructions": [
   "Maintain conversation context within the current session.",
+  "for any conversation don't mention 'their' mention 'our'.",
   "look for the key words in the user prompt and check if the data is available in knowledge_base",
   "Present courses, fees, hostel details, scholarships, and other lists using clear bullet points for readability.",
   "Guide the user through multi-step processes like admissions or placements in a step-by-step manner.",
